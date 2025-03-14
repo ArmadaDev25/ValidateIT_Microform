@@ -30,7 +30,7 @@
         {
             generateBtn = new Button();
             inptBox = new TextBox();
-            listBox1 = new ListBox();
+            logBox = new ListBox();
             SuspendLayout();
             // 
             // generateBtn
@@ -50,22 +50,22 @@
             inptBox.Size = new Size(150, 31);
             inptBox.TabIndex = 1;
             // 
-            // listBox1
+            // logBox
             // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 25;
-            listBox1.Location = new Point(315, 87);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(372, 304);
-            listBox1.TabIndex = 2;
-            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
+            logBox.FormattingEnabled = true;
+            logBox.ItemHeight = 25;
+            logBox.Location = new Point(315, 87);
+            logBox.Name = "logBox";
+            logBox.Size = new Size(372, 304);
+            logBox.TabIndex = 2;
+            logBox.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(listBox1);
+            Controls.Add(logBox);
             Controls.Add(inptBox);
             Controls.Add(generateBtn);
             Name = "Form1";
@@ -78,6 +78,6 @@
 
         private Button generateBtn;
         private TextBox inptBox;
-        private ListBox listBox1;
+        private ListBox logBox;
     }
 }

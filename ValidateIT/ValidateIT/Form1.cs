@@ -11,12 +11,18 @@ namespace ValidateIT
         {
             // Stores the user input
             string sUserInput = inptBox.Text;
-            // Checks to make sure the inputted number is an integer
-            int iUserInput = 1;
-
-            for (int i = 0; i <= iUserInput; i++) {
+            int iUserInput = Int32.Parse(sUserInput);
+            for (int i = 0; i <= iUserInput; i++)
+            {
                 int generatedNumber = generateRandomNumber();
+                logBox.Items.Add(generatedNumber.ToString());
             }
+            try
+            { }
+            catch (Exception err) { }
+
+
+
 
         }
 

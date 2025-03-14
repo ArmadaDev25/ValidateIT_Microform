@@ -1,0 +1,17 @@
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\obj\Debug\net8.0-windows\ValidateIT.Form1.resources
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\obj\Debug\net8.0-windows\ValidateIT.csproj.GenerateResource.cache
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\obj\Debug\net8.0-windows\ValidateIT.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\obj\Debug\net8.0-windows\ValidateIT.AssemblyInfoInputs.cache
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\obj\Debug\net8.0-windows\ValidateIT.AssemblyInfo.cs
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\obj\Debug\net8.0-windows\ValidateIT.csproj.CoreCompileInputs.cache
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\obj\Debug\net8.0-windows\ValidateIT.sourcelink.json
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\bin\Debug\net8.0-windows\ValidateIT.exe
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\bin\Debug\net8.0-windows\ValidateIT.deps.json
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\bin\Debug\net8.0-windows\ValidateIT.runtimeconfig.json
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\bin\Debug\net8.0-windows\ValidateIT.dll
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\bin\Debug\net8.0-windows\ValidateIT.pdb
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\obj\Debug\net8.0-windows\ValidateIT.dll
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\obj\Debug\net8.0-windows\refint\ValidateIT.dll
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\obj\Debug\net8.0-windows\ValidateIT.pdb
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\obj\Debug\net8.0-windows\ValidateIT.genruntimeconfig.cache
+D:\Projects\ValidateIT_Microform\ValidateIT\ValidateIT\obj\Debug\net8.0-windows\ref\ValidateIT.dll
