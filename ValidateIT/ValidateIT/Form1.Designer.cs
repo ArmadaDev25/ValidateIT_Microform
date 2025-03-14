@@ -29,30 +29,55 @@
         private void InitializeComponent()
         {
             generateBtn = new Button();
+            inptBox = new TextBox();
+            listBox1 = new ListBox();
             SuspendLayout();
             // 
             // generateBtn
             // 
-            generateBtn.Location = new Point(56, 130);
+            generateBtn.Location = new Point(46, 124);
             generateBtn.Name = "generateBtn";
             generateBtn.Size = new Size(112, 34);
             generateBtn.TabIndex = 0;
             generateBtn.Text = "Generate";
             generateBtn.UseVisualStyleBackColor = true;
+            generateBtn.Click += generateBtn_Click;
+            // 
+            // inptBox
+            // 
+            inptBox.Location = new Point(46, 87);
+            inptBox.Name = "inptBox";
+            inptBox.Size = new Size(150, 31);
+            inptBox.TabIndex = 1;
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 25;
+            listBox1.Location = new Point(315, 87);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(372, 304);
+            listBox1.TabIndex = 2;
+            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(listBox1);
+            Controls.Add(inptBox);
             Controls.Add(generateBtn);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button generateBtn;
+        private TextBox inptBox;
+        private ListBox listBox1;
     }
 }
