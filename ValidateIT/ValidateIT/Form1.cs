@@ -9,6 +9,7 @@ namespace ValidateIT
 
         private void generateBtn_Click(object sender, EventArgs e)
         {
+            try { 
             // Stores the user input
             string sUserInput = inptBox.Text;
             int iUserInput = Int32.Parse(sUserInput);
@@ -17,9 +18,12 @@ namespace ValidateIT
                 int generatedNumber = generateRandomNumber();
                 logBox.Items.Add(generatedNumber.ToString());
             }
-            try
-            { }
-            catch (Exception err) { }
+            }
+            // If an error is encountered, the error is logged in the logbox
+            catch (Exception err) {
+                logBox.Items.Add(err);
+            
+            }
 
 
 
