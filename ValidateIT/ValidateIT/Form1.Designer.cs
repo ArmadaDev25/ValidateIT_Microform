@@ -31,6 +31,8 @@
             generateBtn = new Button();
             inptBox = new TextBox();
             logBox = new ListBox();
+            label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // generateBtn
@@ -60,16 +62,37 @@
             logBox.TabIndex = 2;
             logBox.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(315, 37);
+            label1.Name = "label1";
+            label1.Size = new Size(124, 25);
+            label1.TabIndex = 3;
+            label1.Text = "Program Logs";
+            label1.Click += label1_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(46, 37);
+            label2.Name = "label2";
+            label2.Size = new Size(115, 25);
+            label2.TabIndex = 4;
+            label2.Text = "Input a Value";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(logBox);
             Controls.Add(inptBox);
             Controls.Add(generateBtn);
             Name = "Form1";
-            Text = "Form1";
+            Text = "ValidateIT";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -79,5 +102,7 @@
         private Button generateBtn;
         private TextBox inptBox;
         private ListBox logBox;
+        private Label label1;
+        private Label label2;
     }
 }
