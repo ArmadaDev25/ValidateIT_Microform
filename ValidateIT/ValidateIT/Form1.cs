@@ -1,3 +1,5 @@
+using System.Runtime.Serialization;
+
 namespace ValidateIT
 {
     public partial class Form1 : Form
@@ -33,21 +35,36 @@ namespace ValidateIT
 
                     }
                     // Spits out an error if the number is greater than 10
-                    else {
+                    else
+                    {
                         logBox.Items.Add("Error, Bad Data " + generatedNumber.ToString() + " is greater than 10");
 
                     }
-                    
-                    
+
+
                 }
             }
             // If an error is encountered, the error is logged in the logbox
+            // Handles the FormatException for impropper input
+            catch (FormatException formatErr)
+            {
+                logBox.Items.Add("Data Input Invalid");
+                logBox.Items.Add(formatErr);
+            }
+            // Handles the DivideByZero Exception
+            catch (DivideByZeroException divideZeroErr)
+            {
+                logBox.Items.Add("Data Input Invalid");
+                logBox.Items.Add(divideZeroErr);
+            }
+            // Handles all other exceptions
             catch (Exception err)
             {
                 // Adds the logbox
                 logBox.Items.Add(err);
 
             }
+            
 
 
 
