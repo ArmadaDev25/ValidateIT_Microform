@@ -25,8 +25,20 @@ namespace ValidateIT
                 {
                     // Stores the generated random number
                     int generatedNumber = generateRandomNumber();
-                    // Adds the generated number to the logbox
-                    logBox.Items.Add(generatedNumber.ToString());
+                    // Checks to see if the number is greater than 10
+                    if (generatedNumber < 10)
+                    {
+                        // Adds the generated number to the logbox, if the number is not greater than 10
+                        logBox.Items.Add(generatedNumber.ToString());
+
+                    }
+                    // Spits out an error if the number is greater than 10
+                    else {
+                        logBox.Items.Add("Error, Bad Data " + generatedNumber.ToString() + " is greater than 10");
+
+                    }
+                    
+                    
                 }
             }
             // If an error is encountered, the error is logged in the logbox
